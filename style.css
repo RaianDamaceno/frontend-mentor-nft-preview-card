@@ -1,0 +1,34 @@
+body, html {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nft {
+    width: 350px;
+    height: 596px;
+    border-radius: 15px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #15263F;
+}
+
+.nft-image {
+    width: 302px;
+    height: 302px;
+    margin-top: 24px;
+    background-image: url("./images/image-equilibrium.jpg");
+    background-size: 302px 302px;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
