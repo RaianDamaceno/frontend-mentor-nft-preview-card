@@ -31,4 +31,139 @@ body, html {
     background-size: 302px 302px;
     background-repeat: no-repeat;
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    color: #00FFF8;
+    overflow: hidden;
+}
+
+.nft-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    left: 6.86%;
+    right: 6.86%;
+    top: 58.72%;
+    bottom: 36.58%;
+    margin-top: 24px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    width: 302px;
+    color: #FFFFFF;
+}
+
+.title:hover {
+    color: #00FFF8;
+}
+
+.content {
+    height: 52px;
+    margin-top: 16px;
+    left: 6.86%;
+    right: 6.86%;
+    top: calc(50% - 52px/2 + 122px);
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    width: 302px;
+    color: #8BACD9;
+}
+
+.ether {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 302px;
+   margin-top: 24px;
+}
+
+.ether-value {
+    height: 20px;
+    left: 18.7%;
+    right: 1.07%;
+    top: calc(50% - 20px/2);
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00FFF8;
+}
+
+.ether-remaining-time {
+    height: 20px;
+    left: 75.42%;
+    right: 0.33%;
+    top: calc(50% - 20px/2);
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+}
+
+hr {
+    width: 302px; 
+    margin-top: 16px;
+    border: 0; 
+    border-top: 1px solid #2E405A;
+}
+
+.creation {
+    margin-top: 16px;
+    width: 302px;
+    height: 33px;
+    display: flex;
+    align-items: center; 
+}
+
+.creation-text {
+    height: 20px;
+    left: 0%;
+    right: 55.25%;
+    top: calc(50% - 20px/2);
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+    margin-left: 12px;
+}
+
+.creation-name {
+    height: 20px;
+    left: 47.51%;
+    right: 1.1%;
+    top: calc(50% - 20px/2);
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-left: 4px;
+    
+}
+
+.creation-name:hover {
+    color: #00FFF8;
+}
+
+.avatar {
+    height:33px;
+    width: 33px;
+    border: solid 1px white;
+    border-radius: 50%;
 }
